@@ -5,12 +5,12 @@ def line(array)
   names_list=array.map.with_index do |name,index|
     "#{index}.#{name}"
     end
-     puts "The line is currently #{names_list}"
+     puts "The line is currently #{names_list.join}"
   end
 end
 
 def take_a_number(katz_deli,name)
-
+end
 
 
 ####def oxford_comma(array)
