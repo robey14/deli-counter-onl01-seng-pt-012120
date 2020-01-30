@@ -11,7 +11,6 @@ end
 
 def take_a_number(array,name)
   array << name
-  index +1 
   puts "Welcome,  #{name}. You are numer #{array.index(name)} in line."
 end
 
