@@ -10,7 +10,8 @@ def line(array)
 end
 
 def take_a_number(deli,name)
-  name.line do 
+  deli << person
+  
 end
 
 def now_serving()
