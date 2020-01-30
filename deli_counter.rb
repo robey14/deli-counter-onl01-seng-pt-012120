@@ -18,7 +18,7 @@ def now_serving(array)
   if array.length == 0 
   puts "The line is currently empty."
 else
-  puts "Currently serving"
+  puts "Currently serving #{array"
 
 end
 
