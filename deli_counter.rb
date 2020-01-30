@@ -9,9 +9,9 @@ def line(array)
   end
 end
 
-def take_a_number(array,person)
-  array << person
-  puts "Welcome,  #{person}. You are numer #{array.index(person)} in line."
+def take_a_number(array,name)
+  array << name
+  puts "Welcome,  #{name}. You are numer #{array.index(name)} in line."
 end
 
 def now_serving()
