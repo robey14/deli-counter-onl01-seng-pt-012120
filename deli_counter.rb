@@ -3,21 +3,23 @@ def line(array)
   puts "The line is currently empty."
   elsif array. length > 0 
   names_list=array.map.with_index do |name,index|
-    "#{index}.#{name}"
+    "#{index +1}. #{name}"
     end
-     puts "The line is currently #{names_list.join}"
+     puts "The line is currently: #{names_list.join(" ")}"
   end
 end
 
-def take_a_number(katz_deli,name)
+def take_a_number(array,name)
+  array << name
+  puts "Welcome, #{name}. You are number #{array.index(name) +1} in line."
 end
 
+def now_serving(array)
+  if array.length == 0 
+  puts "There is nobody waiting to be served!"
+else
+  puts "Currently serving #{array.first}."
+  array.shift
+end
+end
 
-####def oxford_comma(array)
-  #if array.length == 2
-   # return "#{array[0]} and #{array[1]}"
-  #elsif array.length > 2
-   # array[-1].insert(0 , "and ")
- # end
-  #array.join(", ")    
-#end
