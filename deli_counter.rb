@@ -11,7 +11,7 @@ end
 
 def take_a_number(deli,person)
   deli << person
-  puts "Welcome,  #{person}. You are numer #{deli.length} in line."
+  puts "Welcome,  #{person}. You are numer #{deli.index(person)} in line."
 end
 
 def now_serving()
