@@ -9,7 +9,7 @@ def line(array)
   end
 end
 
-def take_a_number(katz_deli,name)
+def take_a_number(deli,name)
   name.line do 
 end
 
