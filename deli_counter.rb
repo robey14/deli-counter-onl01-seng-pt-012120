@@ -11,7 +11,7 @@ end
 
 def take_a_number(array,person)
   array << person
-  puts "Welcome,  #{person}. You are numer #{array.index(person)} in line."
+  puts "Welcome,  #{person}. You are numer #{index +1} in line."
 end
 
 def now_serving()
